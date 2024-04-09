@@ -1,0 +1,69 @@
+.appointment-right .appointment-form form .appoiment-loader {
+    margin: 20px 0 0;
+}
+.appointment-section.contact form .appointment-three-cols p span{
+    font-size: 12px;
+}
+
+
+
+
+@media only screen and (max-width: 1440px){
+    .appointment-section.contact {
+        padding: 0 0 76px;
+    }
+}
+@media only screen and (max-width: 1280px){
+    .appointment-section.contact {
+        padding: 0 0 50px;
+    }
+    .we_cover_hero_bottom .main_partnership_wrapper .partnership_itme {
+        max-width: 25%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .appointment-section.contact {
+        padding: 0 0 40px;
+    }
+}
+/* @media only screen and (min-width: 767px) and (max-width: 991px){
+    .questions_title h5 {
+        font-size: 18px;
+    }
+} */
+.derby-menu-section .panel-menu-right-inner{
+    padding-top: 12%;
+}
+
+
+
+
+.we_cover_hero_bottom .dgs_partnership .main_partnership_wrapper {
+    margin: 0;
+    padding-right: 23%;
+}
+
+
+
+/* today new css */
+.case-banner-section .internal-banner-cont p,.home_hero_section.we_cover_hero .internal-banner-cont p{
+    max-width: 630px;
+    margin: 0 auto;
+}
+.home_hero_section.we_cover_hero .internal-banner-cont p{
+    margin: 0;
+}
+.case_study_section .load-more-wrap {
+    padding: 0 0 20px; /* remove */
+}
+.faq_questions_list .questions_title svg, .faq_questions_list .questions_title img {
+    padding: 8px 0 0 0; /* remove */
+}
+.questions_answers p:not(:last-child) {
+    margin: 0 0 15px 0;
+}
+@media only screen and (max-width: 768px){
+    .we_cover_hero_bottom {
+        padding: 40px 0 0 0;
+    }
+}

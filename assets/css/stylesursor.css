@@ -1,0 +1,108 @@
+  .mscursor-cursor {
+    pointer-events: none;
+    position: fixed;
+    display: block;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+    z-index: 9999999999999999;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+  .mscursor-difference{
+    mix-blend-mode: difference;
+  } 
+  
+  .mscursor-circle {
+      transform-origin: center;
+      position: absolute;
+      display: block;
+      width: 26px;
+      height: 26px;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      -ms-border-radius: 0px;
+      -o-border-radius: 0px;
+}
+
+  .mscursor-border-transform{
+    animation: border-transform 5s linear infinite;
+    -webkit-animation: border-transform 5s linear infinite;
+}
+  
+  @keyframes border-transform {
+    0%,
+    100% {
+      border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+      -webkit-border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+      -moz-border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+      -ms-border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+      -o-border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+}
+    14% {
+      border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+      -webkit-border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+      -moz-border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+      -ms-border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+      -o-border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+}
+    28% {
+      border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+      -webkit-border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+      -moz-border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+      -ms-border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+      -o-border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+}
+    42% {
+      border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+      -webkit-border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+      -moz-border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+      -ms-border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+      -o-border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+}
+    56% {
+      border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+      -webkit-border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+      -moz-border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+      -ms-border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+      -o-border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+}
+    70% {
+      border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+      -webkit-border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+      -moz-border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+      -ms-border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+      -o-border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+}
+    84% {
+      border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+      -webkit-border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+      -moz-border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+      -ms-border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+      -o-border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+}
+  }
+  
+.mscursor-scale{
+  transition: .5s ease;
+  transform: scale(1.6);
+  -webkit-transition: .5s ease;
+  -moz-transition: .5s ease;
+  -ms-transition: .5s ease;
+  -o-transition: .5s ease;
+}
+.mscursor-scale-outline{
+  transform:scale(1.9);
+  background-color: transparent !important;
+  -webkit-transform:scale(1.9);
+  -moz-transform:scale(1.9);
+  -ms-transform:scale(1.9);
+  -o-transform:scale(1.9);
+}
+.mscursor-nocursor{
+  cursor:none!important;
+}
